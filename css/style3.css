@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    background-color: gray;
+    width: 100%;
+    height: 200px;
+    margin-top: 180px;
+}
+.main .topdiv{
+    display:  flex;
+    height: 100px;
+    width: 100%;
+    padding-left: 180px;
+    padding-top: 40px;
+    background-color: lightgray;
+    
+}
+.main .topdiv .nav{
+    height: 25px;
+    padding-left: 20px;
+    border-right: 2px solid;
+    padding-right: 20px;
+}
+.main .topdiv .nav:last-child{
+    border-right: 0px ;
+}
+.main .topdiv .nav p{
+    font-size: 20px;
+    color: black;
+}
+.main .bottomdiv{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    padding-left: 180px;
+    padding-top: 40px;
+    background-color: white;
+}
+.main .bottomdiv .box1{
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.main .bottomdiv .box1 p{
+    font-size: 20px;
+    color: black;
+}
+.main .bottomdiv .box2{
+    padding-left: 60px;
+    height: 50px;
+}
+.main .bottomdiv .box2 .img{
+    height: 100%;
+}
+.main .bottomdiv .box3{
+    height: 50px;
+}
+.main .bottomdiv .box3 ul{
+    display: flex;
+    padding-left: 130px;
+}
+.main .bottomdiv .box3 ul li{
+    list-style: none;
+    padding-right: 25px;
+}
